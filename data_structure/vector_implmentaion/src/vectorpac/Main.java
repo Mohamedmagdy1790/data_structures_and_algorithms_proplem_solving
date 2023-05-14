@@ -13,14 +13,19 @@ public class Main {
 
       p1.print();
 
-      System.out.println("");
+      System.out.println("................................");
 
       p1.Rotate_right();
       p1.print();
 
-      System.out.println("");
+      System.out.println(".................................");
 
       p1.Rotate_left();
+      p1.print();
+
+      System.out.println("...............................");
+
+      p1.Remove(2);
       p1.print();
 
 

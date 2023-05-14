@@ -86,6 +86,14 @@ public class vector {
 
     }
 
+    void Remove(int index){
+        for(int i=index; i<currnt_pos; i++){
+
+            arr[i]=arr[i+1];
+        }
+        currnt_pos--;
+    }
+
 
 }
 
