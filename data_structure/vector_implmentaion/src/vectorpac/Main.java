@@ -28,6 +28,7 @@ public class Main {
       p1.Remove(2);
       p1.print();
 
+           System.out.println("...............................");
 
     }
 
