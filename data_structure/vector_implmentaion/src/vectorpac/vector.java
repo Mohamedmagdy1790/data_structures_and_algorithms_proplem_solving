@@ -94,6 +94,19 @@ public class vector {
         currnt_pos--;
     }
 
+    int find_transposition(int value){
+
+        for(int i=1; i<currnt_pos; i++){
+            if (arr[i]==value){
+                int temp=arr[i];
+                arr[i]=arr[i-1];
+                arr[i-1]=temp;
+              return i-1;
+            }
+        }
+        return 0;
+    }
+
 
 }
 

@@ -28,7 +28,11 @@ public class Main {
       p1.Remove(2);
       p1.print();
 
-           System.out.println("...............................");
+      System.out.println("...............................");
+
+      int x=p1.find_transposition(70);
+      p1.print();
+      System.out.println(x);
 
     }
 
