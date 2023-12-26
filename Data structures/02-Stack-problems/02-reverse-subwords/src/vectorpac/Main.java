@@ -27,7 +27,7 @@ public class Main {
             else s.push(arr[i]);
         }
 
-        System.out.println(sb.toString());
+        System.out.printf(sb.toString());
 
 
 
