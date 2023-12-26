@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/01-maximum-value/01-maximum-value.iml" filepath="$PROJECT_DIR$/01-binary tree/01-maximum-value/01-maximum-value.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-level order traversal/02-level order traversal.iml" filepath="$PROJECT_DIR$/02-level order traversal/02-level order traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/02-maximum_depth/02-maximum_depth.iml" filepath="$PROJECT_DIR$/01-binary tree/02-maximum_depth/02-maximum_depth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/03-path-sum/03-path-sum.iml" filepath="$PROJECT_DIR$/01-binary tree/03-path-sum/03-path-sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/04-Sum of Left Leaves/04-Sum of Left Leaves.iml" filepath="$PROJECT_DIR$/01-binary tree/04-Sum of Left Leaves/04-Sum of Left Leaves.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/05-iscousins - to be completed/05-iscousins - to be completed.iml" filepath="$PROJECT_DIR$/01-binary tree/05-iscousins - to be completed/05-iscousins - to be completed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/06-binary-tree.iml" filepath="$PROJECT_DIR$/.idea/06-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/06-isperfect-binary-tree/06-isperfect-binary-tree.iml" filepath="$PROJECT_DIR$/01-binary tree/06-isperfect-binary-tree/06-isperfect-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_01-zigzag/_01-zigzag.iml" filepath="$PROJECT_DIR$/_01-zigzag/_01-zigzag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binary-search-tree/binary-search-tree.iml" filepath="$PROJECT_DIR$/binary-search-tree/binary-search-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/binary-tree/binary-tree.iml" filepath="$PROJECT_DIR$/01-binary tree/binary-tree/binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/good_nodes/good_nodes.iml" filepath="$PROJECT_DIR$/01-binary tree/good_nodes/good_nodes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/isfull-binary-tree/isfull-binary-tree.iml" filepath="$PROJECT_DIR$/01-binary tree/isfull-binary-tree/isfull-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/isperfect-binary-tree/isperfect-binary-tree.iml" filepath="$PROJECT_DIR$/01-binary tree/isperfect-binary-tree/isperfect-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-binary tree/sum-of-all-node-values/sum-of-all-node-values.iml" filepath="$PROJECT_DIR$/01-binary tree/sum-of-all-node-values/sum-of-all-node-values.iml" />
+    </modules>
+  </component>
+</project>
