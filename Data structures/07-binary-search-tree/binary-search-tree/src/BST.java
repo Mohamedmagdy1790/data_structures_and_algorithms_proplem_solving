@@ -6,7 +6,6 @@ public class BST<T extends  Comparable<T>> {
         root=null;
     }
 
-
     void  add(T v){
 
         if(root==null){
@@ -21,7 +20,7 @@ public class BST<T extends  Comparable<T>> {
                 if (temp.getValue() == v) {
                     throw new RuntimeException("value already exists");
                 }
-                //compare v with the currnt node if bigger go to the right node
+                //compare value with the currnt node if bigger go to the right node
                 // temp.value < v
                 else if (temp.getValue().compareTo(v) < 0) {
                     if(temp.getRight() ==null){
@@ -59,7 +58,7 @@ public class BST<T extends  Comparable<T>> {
       return temp;
     }
 
-   int getMinimum(Node temp){
+    int getMinimum(Node temp){
         if(isLeaf(temp)) return (int) temp.value;
 
         return getMinimum(temp.getLeft());
@@ -107,11 +106,11 @@ public class BST<T extends  Comparable<T>> {
         return false;
         }
 
-        boolean existsRecursion(T value){
+    boolean existsRecursion(T value){
          return existsInternalRecursion(value,root);
         }
 
-    }
+ }
 
 
 

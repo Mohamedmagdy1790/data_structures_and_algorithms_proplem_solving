@@ -1,7 +1,8 @@
+
+
 public class Node<T extends Comparable<T>> {
     Node left;
     Node right;
-
     T value ;
 
 

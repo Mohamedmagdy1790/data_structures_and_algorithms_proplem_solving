@@ -4,13 +4,15 @@ package vectorpac;
 
 public class vector {
     int capacity =0;
+    // size here means until which index we are really used and we pushed into them values
     int size;
     int[] arr=null;
 
     vector(int capacity){
         this.capacity =capacity;
         size =0;
-        arr = new int[this.capacity >=0? this.capacity :0];
+        // we want to avoid passing -ve number as the size of array max will return the greater value betwwen 0 or this.capacity
+        arr = new int[Math.max (this.capacity, 0)];
     }
 
     void set(int index,int value){

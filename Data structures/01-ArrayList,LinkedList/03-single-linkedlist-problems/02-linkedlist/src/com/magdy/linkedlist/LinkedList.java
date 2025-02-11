@@ -12,18 +12,19 @@ public class LinkedList {
     }
 
     public void add(int value){
-        length++;
-        Node n =new Node(value);
-        if(length==1){
-            head=tail=n;
-        }
+
+        Node item =new Node(value);
+        // if head is null this means there is no items inserted so we will insert a new node
+        //if(length==1){head=tail=item;}
+        if(head==null){head=tail=item;}
+
         else{
-        //n.next=null; we implmented that in Node deafult constructor
-            tail.next=n;
-            tail=n;
+        //item.next=null; we implmented that in Node deafult constructor
+            tail.next=item;
+            tail=item;
         }
         debug_verify_data_integrity();
-
+        ++length;
     }
 
     public void addfront(int value) {

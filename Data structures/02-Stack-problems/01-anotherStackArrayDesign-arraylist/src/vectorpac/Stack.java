@@ -3,6 +3,7 @@ package vectorpac;
 import java.util.EmptyStackException;
 
 public class Stack extends  vector {
+
     Stack(int size) {
         super(size);
 
@@ -12,6 +13,7 @@ public class Stack extends  vector {
     boolean IsEmpty(){
         return (currnt_pos-1)==0;
       }
+
     void Push(int value){
         if(currnt_pos==size){expand();}
         if(currnt_pos>0) {
@@ -23,6 +25,7 @@ public class Stack extends  vector {
         arr[0]=value;
         currnt_pos++;
     }
+
     int pop(){
        if(IsEmpty()) throw new IndexOutOfBoundsException();
 
